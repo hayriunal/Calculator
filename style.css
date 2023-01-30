@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 10px;
+    
+}
+
+body{
+    
+    font-size: 1.2rem;
+    background: url(.//photos/111.jpeg);
+    min-height: 100vh;
+    background-size: cover;/*bununla arka resmi coverlar ve tam da sayfa boyutuna göre ayarlar.*/
+     background-position:center;/*resmi tam ortaladıık.*/
+     margin-top: -1px;/*bununla arka planı yukarı çizgiye ayarladık*/
+     display: flex;
+     align-items: center;
+     
+    
+
+}
+
+.calculator{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background-color: white;
+}
+
+.calculator-input{
+
+    width:100%;
+    font-size: 4rem;
+    height: 70px;
+    border: none;
+    background-color: #252525;
+    color:white;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+button{
+    height: 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: #333;
+    
+}
+
+.operator{
+    color: #337ac3;
+}
+
+.clear{
+    background-color: #f0595f;
+    border-color: #b0353a;
+    color: #fff;
+}
+
+button:hover{
+    background-color:#eaeaea;
+    height: 75px;
+    transition: 0.4s;
+    border: 2px solid;
+    border-radius: 8px;
+    
+}
+button.operator:hover{
+    background-color: rgb(165, 75, 75);
+    color: #eaeaea;
+}
+button.clear:hover{
+    background-color: red;
+    border: 3px solid;
+
+}
+button.equal-sign-operator:hover{
+    background-color: rgb(27, 171, 171);
+    color: rgb(13, 12, 12);
+    height: 100%;
+}
+
+.equal-sign-operator{
+    background-color: #4e9ed4;
+    color: #fff;
+    grid-area: 2/4/6/5;/* I move the "equals" button to the point I want with the grid-area feature.  */
+    height: 90%;
+}
+
+.calculator-keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+
+
