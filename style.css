@@ -109,5 +109,60 @@ button.equal-sign.operator:hover{
     padding: 20px;
 }
 
+/* ########## Footer Start ################# */
+.footer{
+    
+    text-align: center;
+    line-height: 5px;
+    color: #fff;
+    font-size: 10px;
+    
+  
+    
+}
+    
+.footer .credit{
+    margin-top: 370%;
+    
+}
+
+/* 
+    
+}
+.footer .share{
+    padding: 2px 0 ;
+}
+
+.footer .share a{
+   width: 5px;
+ 
+   line-height: 5px;
+   color: #fff;
+   font-size: 20px;
+   border: 1px solid ;
+   border-radius: 50%;
+   margin: 3px;
+
+}
+/* .footer .share a img{
+    width: 20px;
+   margin-top: 300px;
+    color: #fff;
+    font-size: 20px;
+ } */
+
+/* .footer .share a:hover{
+   
+    color:red;
+
+    
+ }
+  */ 
 
 
+
+
+
+
+
+  /* ########## Footer END ################# */
