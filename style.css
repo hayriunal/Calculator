@@ -89,13 +89,13 @@ button.clear:hover{
     border: 3px solid;
 
 }
-button.equal-sign-operator:hover{
+button.equal-sign.operator:hover{
     background-color: rgb(27, 171, 171);
     color: rgb(13, 12, 12);
     height: 100%;
 }
 
-.equal-sign-operator{
+.equal-sign.operator{
     background-color: #4e9ed4;
     color: #fff;
     grid-area: 2/4/6/5;/* I move the "equals" button to the point I want with the grid-area feature.  */
